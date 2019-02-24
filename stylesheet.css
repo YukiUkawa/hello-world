@@ -1,0 +1,282 @@
+li {
+	list-style: none;
+}
+
+
+body {
+	margin:0;
+}
+
+.contents {
+	width: 980px;
+	margin: 0 auto;
+	font-family: YuGothic;
+}
+
+#top-head {
+	line-height: 75px;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	box-shadow: 0 1px 3px #000000;
+	z-index: 2;
+}
+
+#top-btn:hover{
+	cursor: pointer;
+}
+
+#top-btn {
+	float: left;
+	margin-top:25px;
+}
+
+.nav-wrap ul {
+	text-align: right;
+	margin: 0;
+}
+
+.nav-wrap li a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.nav-wrap li {
+	display: inline-block;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.navToggle {
+	display: none;
+}
+
+.image1 {
+	width: 100%;
+	height: auto;
+	background-image: url("image/グループ化 5.png");
+	background-size: contain;
+	
+}
+
+.image1::after {
+	content: '';
+	display: block;
+	padding-top: 66.66%;
+}
+
+.intro {
+	background-color: #FFFFFF;
+}
+
+.intro h1 {
+	font-size: 40px;
+	margin-top: 89.5px;
+	margin-bottom: 79.5px;
+}
+
+.intro p{
+	font-size: 24px;
+	margin-bottom: 89.5px;
+	line-height: 45px;
+}
+
+#cat1 {
+	background-color: #FCF6F2;
+}
+
+#cat1 h1 {
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	padding: 90px 0;
+}
+
+.cat1-contents {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 100px;
+}
+
+.even {
+	flex-direction: row-reverse;
+}
+
+
+.cat1-text {
+	width: 450px; /*flex: 1;*/
+	margin: 0;
+}
+
+#cat2 {
+	background-color: #FFFFFF;
+}
+
+#cat2 h1 {
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	padding: 90px 0;
+}
+
+.cat2-contents {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.cat2-content{
+	width: 450px;
+	margin-bottom: 100px;
+}
+
+.cat2-content img {
+	margin-bottom: 50px;
+}
+
+.cat2-content p{
+	margin: 0;
+}
+
+.nya {
+	position: relative;
+}
+
+.nya img {
+	width: 100%;
+}
+
+.nya-text {
+	width: 600px;
+	height: 600px;
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid #707070;
+	position: absolute;
+	top: 10.5%;
+	left: 42.57%;
+}
+
+.nya-text p {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 34px;
+	width: 450px;
+	margin: 85px auto 0 auto;
+}
+
+#cat3 h1 {
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	padding: 88px 0;
+	margin: 0;
+}
+
+#cat3 ul{
+	margin: 0 auto 100px auto;
+	padding: 0;
+}
+
+#cat3 li {
+	font-size: 16px;
+	font-weight: normal;
+	border-top: 1px solid #777777;
+	text-align: left;
+}
+
+#cat3 li:last-child{
+	border-bottom: 1px solid #777777;
+}
+
+#cat3 li a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.date {
+	line-height: 40px;
+	font-weight: bold;
+	margin-left: 23px;
+}
+ 
+.new {
+	display: inline-block;
+	color: #AD2727;
+	border: 1px solid #AD2727;
+	padding: 0 27px 1px 25px;
+	margin-left: 15px;
+	margin-right: 36px;
+}
+
+.master {
+	color: white;
+	background-color: #8E8E8E;
+}
+
+.master-contents {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.master-content {
+	width: 300px;
+	margin-bottom: 84px;
+	margin-top: 100px;
+}
+
+.master-content ul{
+	padding-left: 0;
+	padding-top: 12px;
+}
+
+h3 {
+	font-size: 16px;
+	border-bottom: 1px solid #FFFFFF;
+	margin: 0;
+}
+
+footer{
+	background-color: #6A6A6A;
+	border: 1px solid #707070;
+	height: 60px;
+}
+
+footer img {
+	float: left;
+	margin-top: 18px;
+}
+
+footer p {
+	display: inline-block;
+	color: #FFFFFF;
+	line-height: 60px;
+	font-size: 13px;
+	float: right;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
