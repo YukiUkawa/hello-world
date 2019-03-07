@@ -186,7 +186,20 @@
 	.master-content {
 		margin: 25px 0;
 	}
+
+	footer p {
+		font-size: 10px;
+		width: 80%;
+		text-align: right;
+		
+	}
+
+
 }
 
-
-
+@media (max-width: 360px){
+	footer p {
+		margin: 10px 0;
+		line-height: 20px;
+	}
+}
